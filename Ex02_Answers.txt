@@ -1,0 +1,7 @@
+1. What happens when the number of hidden nodes increase?
+
+When the number of hidden nodes increases, the neural network becomes more powerful in terms of its ability to learn complex relationships in the data. With only a small number of hidden nodes, the model is too simple and cannot capture the necessary patterns, leading to underfitting and poor accuracy. As more hidden nodes are added, the model can represent more complex decision boundaries, which improves its ability to classify the data correctly. This typically results in a noticeable increase in accuracy during training
+
+2. Can you explain the pattern of the accuracy when the hidden nodes increase? 
+
+if the number of hidden nodes becomes too large, the network may start to memorize the training data instead of learning generalized patterns, leading to overfitting. In this case, the training accuracy may remain very high, but the test accuracy may not improve further and can even decrease. Therefore, the overall pattern shows that accuracy improves steadily as hidden nodes increase up to an optimal point, but beyond that point, additional hidden nodes provide little benefit and can harm generalization.
